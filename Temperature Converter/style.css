@@ -3,6 +3,12 @@
     background-color: #F9E795;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tempContainer {
     display: flex;
     flex-direction: column;
@@ -11,6 +17,8 @@
     color: #F96167;
     border: 4px solid #F96167;
     border-radius: 25px;
+    padding: 30px;
+    max-width: 558px;
 }
 
 #mySubmit {
@@ -21,6 +29,17 @@
 
 .fahrenheitBox{
     display: flex;
+    align-items: center;
     gap: 25px;
     margin: 10px;
+}
+
+.celsiusBox{
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+}
+
+.celsius {
+    max-width: 100px;
 }
