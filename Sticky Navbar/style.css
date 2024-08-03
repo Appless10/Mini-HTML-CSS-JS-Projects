@@ -2,13 +2,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+html, body {
     margin: 0;
 }
 
 .topContent {
-    background-image: url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
-    height: 600px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1721276303391-ee0af231d021?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat:no-repeat;
     display: flex;
     align-items: center;
