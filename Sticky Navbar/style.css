@@ -20,3 +20,9 @@ ul {
     padding: 0; 
     margin: 0; 
 }
+
+.mainContent {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
