@@ -29,3 +29,23 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+.header {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    padding: 15px 25px;
+    justify-content: space-around;
+}
+
+.leftSide {
+    margin-right: auto;
+}
+
+.rightSide {
+    margin-left: auto;
+}
+
