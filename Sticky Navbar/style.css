@@ -35,11 +35,13 @@ ul {
     gap: 20px;
 }
 
-.navbar {
+#navbar {
     display: flex;
     padding: 15px 25px;
     justify-content: space-around;
+    position: sticky;
 }
+
 
 .leftSide {
     margin-right: auto;
