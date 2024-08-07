@@ -2,6 +2,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+html {
+    min-height: 100%;
+}
+
 body {
     margin: 0;
     min-height: 750px;
@@ -10,4 +14,10 @@ body {
     align-items: center;
     font-family: monospace;
     color: darkcyan;
-  }
+    background-image: linear-gradient(45deg, rgb(119, 195, 175), rgb(39, 232, 138));
+}
+
+.weightConverter {
+    background-color: rgb(170, 225, 170);
+    padding: 25px 75px;
+}
